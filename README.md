@@ -47,7 +47,7 @@ You can extend this approach for more features, larger datasets, mini-batch trai
 
 # Second Program:  Generate Sample JSON Customer Data
 
-This notebook generates synthetic customer and sales order records, serializes them as JSON, and writes them to two output files. Here is how it works, step-by-step:
+[This notebook](https://github.com/werowe/portfolio/blob/main/generateCustomersJSON.ipynb) generates synthetic customer and sales order records, serializes them as JSON, and writes them to two output files. Here is how it works, step-by-step:
 
 ---
 
