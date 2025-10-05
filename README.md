@@ -1,6 +1,6 @@
 # First Program:  Manual Gradient Descent
 
-This notebook demonstrates how to convert a manual, numpy-based gradient descent for logistic regression to use TensorFlow's `GradientTape`. Here’s how the TensorFlow version works:
+[This notebook](https://github.com/werowe/portfolio/blob/main/tensorflow_tape_gradient_descent.ipynb) demonstrates how to convert a manual, numpy-based gradient descent for logistic regression to use TensorFlow's `GradientTape`. Here’s how the TensorFlow version works:
 
 ---
 
