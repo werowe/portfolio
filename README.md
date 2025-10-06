@@ -1,4 +1,50 @@
-# First Program:  Manual Gradient Descent
+# Global Warming Study
+This Jupyter notebook processes historical weather data for Paphos, Cyprus, and fits a linear regression to the annual average temperature in order to reveal temperature trends over time.
+
+---
+
+### Step-by-Step Explanation
+
+#### 1. **Import/Read Data**
+- Loads weather data (`paphos_weather.csv`) using pandas (`pd.read_csv`).
+
+#### 2. **Datetime Processing**
+- Converts the UNIX timestamp column `dt` to a pandas datetime object, makes it the index, and drops the original `dt` column so all analysis uses the actual dates.
+
+#### 3. **Inspect Data**
+- Lists columns (feature names) and inspects the datetime index. The data spans from January 1, 2004, through October 2025 and contains many weather features like temperature, humidity, wind, etc.
+
+#### 4. **Aggregate to Yearly Means**
+- Resamples the dataframe from (probably) hourly/daily to yearly frequency.
+- Computes the average temperature (`temp`) for each year, creating a new DataFrame (`year`) indexed by year.
+
+#### 5. **Prepare for Linear Regression**
+- Sets the DataFrame’s index to integer years (e.g., 2004, 2005, …).
+- Defines `X` as the year (predictor, numeric) and `y` as the annual mean temperature (target).
+
+#### 6. **Fit Linear Regression Model**
+- Uses both NumPy’s polyfit and scikit-learn’s `LinearRegression` to fit a straight line to the data (`year` vs. `avg temp`).
+- Stores the resulting slope and intercept.
+- Predicts temperature for each year using the fitted model, adding these predictions as a new column, `predicted`.
+
+#### 7. **Examine and (probably) Plot Result**
+- The resulting DataFrame (`year`) now has the actual annual mean temperature and the model’s predicted value for each year, useful for visualizing trends and regression fit.
+
+---
+
+### What This Tells You
+
+- The notebook transforms raw time series weather data into an annual summary for temperature, then performs and displays a linear regression to reveal whether the average temperature in Paphos is trending up, down, or is stable over the examined years.
+
+- The final DataFrame provides both actual and predicted (trendline) values for each year, supporting climate or weather pattern analysis for the region.
+
+---
+
+**In summary:**  
+This notebook loads Paphos hourly/daily weather data, transforms it to annual means, and performs linear regression to analyze temperature trends over time in Paphos. It outputs actual and forecasted annual mean temperatures for easy comparison through data tables (and likely graphs in subsequent cells).
+
+
+# Manual Gradient Descent
 
 [This notebook](https://github.com/werowe/portfolio/blob/main/tensorflow_tape_gradient_descent.ipynb) demonstrates how to convert a manual, numpy-based gradient descent for logistic regression to use TensorFlow's `GradientTape`. Here’s how the TensorFlow version works:
 
@@ -45,7 +91,7 @@
 
 You can extend this approach for more features, larger datasets, mini-batch training, or deeper models—all benefitting from TensorFlow's gradient mechanics and optimization tools.
 
-# Second Program:  Generate Sample JSON Customer Data
+# Generate Sample JSON Customer Data
 
 [This notebook](https://github.com/werowe/portfolio/blob/main/generateCustomersJSON.ipynb) generates synthetic customer and sales order records, serializes them as JSON, and writes them to two output files. Here is how it works, step-by-step:
 
