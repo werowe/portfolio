@@ -1,5 +1,5 @@
 # Global Warming Study
-This Jupyter notebook processes historical weather data for Paphos, Cyprus, and fits a linear regression to the annual average temperature in order to reveal temperature trends over time.
+[This Jupyter notebook] processes historical weather data for Paphos, Cyprus, and fits a linear regression to the annual average temperature in order to reveal temperature trends over time.
 
 ---
 
