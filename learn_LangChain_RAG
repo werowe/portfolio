@@ -1,0 +1,33 @@
+# Want to Learn LangChain and RAG? OpenAI Is Too Expensive — So What Else Can You Use?
+
+When learning LLM programming, **cost and model access matter**. For instance, you can use GPT‑5 through Perplexity, but it has rate limits. With OpenAI, GPT‑5 offers no fixed monthly price — API costs are usage‑based and oriented toward enterprise budgets.
+
+OpenAI currently has no true low‑cost or free plan. The pay‑as‑you‑go API is priced for professionals. **GPT-5 costs $1.50 per 1 million input tokens and $10.00 for 1 million output tokens.**
+
+A *token* is a small piece of text—like a word, part of a word, or punctuation—that an AI model uses to understand and generate language. **Input tokens** are what you send to the model (your prompt), and **output tokens** are what the model sends back as its response.
+
+---
+
+If you’re learning AI development, there are **more affordable alternatives**:
+
+- **Open‑source or hybrid providers:**  
+  Groq, Together AI, and OpenRouter host top models like Llama 3, Mixtral, and DeepSeek at a fraction of the cost.
+
+- **Other platforms with free/low-tier access:**  
+  Google AI Studio, Hugging Face, and DeepSeek API also offer free or low cost. DeepSeek is about 10× less expensive than OpenAI (the open model is for self-hosting, but DeepSeek’s API runs it in their cloud).
+
+- **Local inference:**  
+  [Ollama](https://ollama.ai/) is a downloadable model runner. It can run Llama 3, Gemma, Mistral, and Phi 3 models locally on your device and works with LangChain and other tools.
+
+---
+
+With **Perplexity Pro** ($20/month), you can access open models such as **Mistral‑7B**, **Code Llama‑34B**, and **Llama‑70B**.
+
+> However, the Sonar and Sonar Pro APIs don’t yet work natively with LangChain’s chat interfaces.
+
+---
+
+**Vector databases:**  
+- **Chroma** and **Pinecone**: both offer free plans (Pinecone gives 5 GB free).
+- **Faiss** (Facebook AI Similarity Search): fully free and open-source, download and run yourself.
+- Chroma and Faiss are self-hosted downloads, Pinecone is a managed cloud service.
