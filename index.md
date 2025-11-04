@@ -18,7 +18,7 @@
 
 * [Amazon Sagemaker](https://www.bmc.com/blogs/amazon-sagemaker/)
 
-* * [Spark ML: A Preventive Maintenance Application](https://github.com/werowe/mist_preventive_maintenance_ml/blob/master/README.md)
+* [Spark ML: A Preventive Maintenance Application](https://github.com/werowe/mist_preventive_maintenance_ml/blob/master/README.md)
 
 # Tech Articles
 
