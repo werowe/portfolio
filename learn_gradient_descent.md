@@ -24,4 +24,4 @@ If the error is positive, we go in the negative direction by subtracting $lr$ fr
 
 We repeat this process until we reach the minimum error. At this point, our model is said to have converged, meaning we have found a solution.
 
-Here is a Colab notebook where I illustrate this idea.
+Here is a [Colab notebook](https://github.com/werowe/HypatiaAcademy/blob/master/class/calculate_linear_regression_manually.ipynb) where I illustrate this idea.
