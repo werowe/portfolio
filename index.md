@@ -6,7 +6,7 @@
 
 # AI Posts
 
-* [Learn_LangChain_RAG](https://github.com/werowe/portfolio/blob/main/learn_LangChain_RAG.md)
+* [The Low-cost Way to Learn LLM Programming](https://github.com/werowe/portfolio/blob/main/learn_LangChain_RAG.md)
 
 * [Cosine Similarity Explained](https://github.com/werowe/portfolio/blob/main/cosine-similarity.md)
 
