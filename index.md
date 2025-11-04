@@ -26,6 +26,8 @@
 
 # Tech Articles
 
+* [BMC Tech Articles](https://www.bmc.com/blogs/author/walker_rowe/)
+* [Tech Target Tech Articles](https://www.techtarget.com/contributor/Walker-Rowe)
 
 # Books
 
