@@ -1,5 +1,7 @@
 ---
 
+---
+
 # Understanding Cosine Similarity
 
 A vector database stores embeddings—vectors that represent words or texts—so it can find items with similar meanings. An embedding is just a list of numbers—for example, dog → 0.3, 0.01, 0.06, …—learned from lots of text so that words used in similar contexts end up near each other in the vector space.
