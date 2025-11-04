@@ -1,3 +1,5 @@
+---
+
 # Learn Stochastic Gradient Descent
 
 It's safe to say that many ML programmers focus on learning PyTorch and similar tools without spending much time mastering the algorithms and math that make neural networks work. I believe it's important to understand the math as well.
