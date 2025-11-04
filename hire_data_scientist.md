@@ -49,3 +49,5 @@ Each of these is unique:
 - **AI Researcher:** Focuses on mathematical theory, reading/writing academic papers, and new algorithm discovery; often holds a PhD.
 - **Data Scientist:** Deep understanding of AI algorithms and APIs, model tuning and evaluation, strong math and data visualization skills.
 - **Machine Learning Engineer (MLOps):** Deploys code to production using orchestration tools, Docker, and cloud platforms—making AI robust and scalable.
+
+![](https://github.com/werowe/portfolio/blob/main/images/ds.jpeg)
