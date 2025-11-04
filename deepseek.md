@@ -26,4 +26,4 @@ They do this literally by guessing. First, you take a guess. Then you calculate 
 
 You repeat this until you find the point where this model $f(x)$ reaches its minimum error. The error means the difference between the guess $f(x)$ and the actual observed value, say $f^*(x)$.
 
-What is not yet known—but will be revealed in the coming days—is how DeepSeek was able to achieve a performance boost of several orders of magnitude. The source code is free and online right here: [https://lnkd.in/dV6-XxxU](https://lnkd.in/dV6-XxxU). All over the world, thousands of developers are downloading it right now to figure that out.
+What is not yet known—but will be revealed in the coming days—is how DeepSeek was able to achieve a performance boost of several orders of magnitude. The source code is free and online [right here](https://github.com/deepseek-ai/DeepSeek-V3). All over the world, thousands of developers are downloading it right now to figure that out.
