@@ -1,5 +1,7 @@
 ---
 
+---
+
 # Want to Learn LangChain and RAG? OpenAI Is Too Expensive — So What Else Can You Use?
 
 When learning LLM programming, **cost and model access matter**. For instance, you can use GPT‑5 through Perplexity, but it has rate limits. With OpenAI, GPT‑5 offers no fixed monthly price—API costs are usage‑based and aimed at enterprise budgets.
