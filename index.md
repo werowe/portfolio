@@ -26,12 +26,12 @@
 # Books
 
 * [The Definitive Guide to IoT](https://drive.google.com/file/d/0B_nwhnbujpNoYjN4SEdhMXFrbDg/view?resourcekey=0-A8dv1gx8fOY29TULXH11fQ)
-
 * [Machine Learning, A Hands-on Introduction to Math, Stats, and Machine Learning](https://drive.google.com/file/d/1um0BBueBzgHyx9WsWbIBxUUDELOG_Q1M/view)
 
 
+# Teaching and Curriculum Development
 
-
+* [Here is the course material I developed for my Python school.](https://github.com/werowe/HypatiaAcademy/blob/master/README.md)
 
 # SDK/API Documentation
 > **Note:  I wrote all of this API documnetation.**
@@ -39,14 +39,14 @@
 > Much or most of it has been changed over time.
 
 
-[SAP/Qualtrics](https://api.qualtrics.com/)
-[Research For Good](https://docs.researchforgood.com/RFGAPI/client/apidocs/index.html#summary)
-[Envoy](https://envoy.com/developers)
-[Ninth Wave](https://ninth-wave.com/)
-[Unbabel](https://unbabel.com/)
-[Cyabra](https://cyabra.com/)
-[Join Save](https://joinsave.com/)
-[Kensu](https://www.kensu.io/)
-[LiveSwitch](https://developer.liveswitch.io/)
-[Agora](https://docs.agora.io/en/)
+* [SAP/Qualtrics](https://api.qualtrics.com/)
+* [Research For Good](https://docs.researchforgood.com/RFGAPI/client/apidocs/index.html#summary)
+* [Envoy](https://envoy.com/developers)
+* [Ninth Wave](https://ninth-wave.com/)
+* [Unbabel](https://unbabel.com/)
+* [Cyabra](https://cyabra.com/)
+* [Join Save](https://joinsave.com/)
+* [Kensu](https://www.kensu.io/)
+* [LiveSwitch](https://developer.liveswitch.io/)
+* [Agora](https://docs.agora.io/en/)
 
