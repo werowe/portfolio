@@ -1,5 +1,7 @@
 ---
 
+---
+
 # Do You Understand Self-Attention, Gradient Descent, the Transformer Architecture?
 
 What is the most interesting way to study AI? What are the most important concepts to master?
