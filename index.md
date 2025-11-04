@@ -35,6 +35,12 @@
 * [Machine Learning, A Hands-on Introduction to Math, Stats, and Machine Learning](https://drive.google.com/file/d/1um0BBueBzgHyx9WsWbIBxUUDELOG_Q1M/view)
 
 
+# Code
+
+* [Here is my Code Portfolio](https://docs.google.com/spreadsheets/d/1YXkZ34bDKClfz_cV6KCqam9hIPeorkYT6vfk_JzewAM/edit?usp=sharing)
+  
+
+
 # Teaching and Curriculum Development
 
 * [Here is the course material I developed for my Python school.](https://github.com/werowe/HypatiaAcademy/blob/master/README.md)
