@@ -1,2 +1,5 @@
-markdown: kramdown
+# _config.yml (minimal for GitHub Pages with Markdown rendering)
+
+title: Walker Rowe Portfolio
 theme: minima
+markdown: kramdown
