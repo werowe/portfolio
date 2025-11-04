@@ -26,3 +26,5 @@ Consider what AI-generated images and sound can do:
 - 💎 AI can write movies and series, too. All it needs to do is read all of Neil Simon, Tom Stoppard, Charles Dickens, and Jane Austen—and then write like they do.
 
 AI has touched every aspect of life: work, war, love, music, and now film. It’s as if the lightbulb has replaced the candle. We may long for the warmth of its flickering glow, but now we bask in the steady brilliance of the AI-powered lightbulb, whose colors and brightness change automatically as the day fades into night.
+
+![](https://github.com/werowe/portfolio/blob/main/images/Tilly-Norwood-.webp)
