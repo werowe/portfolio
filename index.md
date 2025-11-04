@@ -18,7 +18,7 @@
 
 * [Self-Attention and the Transformer Architecture](https://github.com/werowe/portfolio/blob/main/self-attention-gradient-descent-transformer.md)
 
-* [TillyThe First AI Actress](https://github.com/werowe/portfolio/blob/main/tilly_norwood.md)
+* [Tilly,The First AI Actress](https://github.com/werowe/portfolio/blob/main/tilly_norwood.md)
 
 * [Amazon Sagemaker](https://www.bmc.com/blogs/amazon-sagemaker/)
 
