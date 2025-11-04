@@ -19,3 +19,6 @@ $0 / (\|[0,1]\| \|[1,0]\|)$
 is $0$. (And there's a $90^\circ$ angle between the vectors.)
 
 Two vectors in the opposite direction, $[-3,-3]$ and $[3,3]$, have cosine similarity $-1$, meaning "dissimilar." The calculation of this angle $\theta_2$ is shown in the image.
+
+![](https://github.com/werowe/portfolio/blob/main/images/cosine-similarity.jpeg)
+
