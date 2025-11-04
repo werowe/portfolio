@@ -56,3 +56,11 @@
 * [LiveSwitch](https://developer.liveswitch.io/)
 * [Agora](https://docs.agora.io/en/)
 
+# Non-Tech
+
+* [China US Focus](https://www.chinausfocus.com/author/136/walker-rowe.html)
+
+# Non-IT Books I wrote
+* [Walker Rowe books on Amazon](https://www.amazon.com/Books-Walker-Elliott-Rowe/s?rh=n%3A283155%2Cp_27%3AWalker%2BElliott%2BRowe)
+* [The Avocado Republic of Chile](https://www.amazon.co.uk/Avocado-Republic-Chile-Because-Bananas/dp/151200782X)
+
