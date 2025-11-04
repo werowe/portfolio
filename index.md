@@ -1,31 +1,43 @@
-[learn_LangChain_RAG](https://github.com/werowe/portfolio/blob/main/learn_LangChain_RAG)
+# WALKER ROWE PORTFOLIO
 
-https://github.com/werowe/portfolio/blob/main/cosine-similarity.md
+# AI Posts
 
-https://github.com/werowe/portfolio/blob/main/deepseek.md
+* [Learn_LangChain_RAG](https://github.com/werowe/portfolio/blob/main/learn_LangChain_RAG)
 
-https://github.com/werowe/portfolio/blob/main/hire_data_scientist.md
+* [Cosine Similarity Explained](https://github.com/werowe/portfolio/blob/main/cosine-similarity.md)
 
-https://github.com/werowe/portfolio/blob/main/learn_gradient_descent.md
+* [A Look at DeepSeek](https://github.com/werowe/portfolio/blob/main/deepseek.md)
 
-https://github.com/werowe/portfolio/blob/main/self-attention-gradient-descent-transformer.md
+* [How to Hire a DataScientist](https://github.com/werowe/portfolio/blob/main/hire_data_scientist.md)
 
-https://github.com/werowe/portfolio/blob/main/tilly_norwood.md
+* [How Gradient Descent Works](https://github.com/werowe/portfolio/blob/main/learn_gradient_descent.md)
+
+* [Self-Attention and the Transformer Architecture](https://github.com/werowe/portfolio/blob/main/self-attention-gradient-descent-transformer.md)
+
+* [TillyThe First AI Actress](https://github.com/werowe/portfolio/blob/main/tilly_norwood.md)
+
+* [Amazon Sagemaker](https://www.bmc.com/blogs/amazon-sagemaker/)
+
+* * [Spark ML: A Preventive Maintenance Application](https://github.com/werowe/mist_preventive_maintenance_ml/blob/master/README.md)
+
+# Tech Articles
 
 
-# Other Portfolio
+# Books
 
-https://www.bmc.com/blogs/amazon-sagemaker/
+* [The Definitive Guide to IoT](https://drive.google.com/file/d/0B_nwhnbujpNoYjN4SEdhMXFrbDg/view?resourcekey=0-A8dv1gx8fOY29TULXH11fQ)
 
-https://drive.google.com/file/d/0B_nwhnbujpNoYjN4SEdhMXFrbDg/view?resourcekey=0-A8dv1gx8fOY29TULXH11fQ
+* [Machine Learning, A Hands-on Introduction to Math, Stats, and Machine Learning](https://drive.google.com/file/d/1um0BBueBzgHyx9WsWbIBxUUDELOG_Q1M/view)
 
-https://drive.google.com/file/d/1um0BBueBzgHyx9WsWbIBxUUDELOG_Q1M/view
 
-https://github.com/werowe/mist_preventive_maintenance_ml/blob/master/README.md
 
 
 
 # SDK/API Documentation
+> **Note:  I wrote all of this API documnetation.**
+>
+> Much or most of it has been changed over time.
+
 
 [SAP/Qualtrics](https://api.qualtrics.com/)
 [Research For Good](https://docs.researchforgood.com/RFGAPI/client/apidocs/index.html#summary)
