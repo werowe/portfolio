@@ -112,6 +112,17 @@ title: Portfolio
 </style>
 
 <div class="portfolio-container">
+
+  <!-- Top Navigation or Featured Links: -->
+  <div class="featured-links" style="text-align: center; margin-bottom: 2em;">
+    {% for project in site.data.projects %}
+      {% if project.section == "Header" %}
+        <a href="{{ project.url }}" class="portfolio-link" style="margin: 0 10px;" target="_blank">{{ project.title }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <!-- Regular Grid for All Other Projects: -->
   <div class="portfolio-header">
     <h1>My Portfolio</h1>
     <p>A showcase of my recent projects and work</p>
@@ -119,25 +130,28 @@ title: Portfolio
 
   <div class="portfolio-grid">
     {% for project in site.data.projects %}
-    <div class="portfolio-item">
-      {% if project.image %}
-      <img src="{{ project.image }}" alt="{{ project.title }}" class="portfolio-image">
-      {% endif %}
-      <div class="portfolio-content">
-        <h2 class="portfolio-title">{{ project.title }}</h2>
-        {% if project.tags %}
-        <div class="portfolio-tags">
-          {% for tag in project.tags %}
-          <span class="tag">{{ tag }}</span>
-          {% endfor %}
+      {% unless project.section == "Header" %}
+        <div class="portfolio-item">
+          {% if project.image %}
+            <img src="{{ project.image }}" alt="{{ project.title }}" class="portfolio-image">
+          {% endif %}
+          <div class="portfolio-content">
+            <h2 class="portfolio-title">{{ project.title }}</h2>
+            {% if project.tags %}
+              <div class="portfolio-tags">
+                {% for tag in project.tags %}
+                  <span class="tag">{{ tag }}</span>
+                {% endfor %}
+              </div>
+            {% endif %}
+            <p class="portfolio-description">{{ project.description }}</p>
+            {% if project.url %}
+              <a href="{{ project.url }}" class="portfolio-link" target="_blank">View Project</a>
+            {% endif %}
+          </div>
         </div>
-        {% endif %}
-        <p class="portfolio-description">{{ project.description }}</p>
-        {% if project.url %}
-        <a href="{{ project.url }}" class="portfolio-link" target="_blank">View Project</a>
-        {% endif %}
-      </div>
-    </div>
+      {% endunless %}
     {% endfor %}
   </div>
 </div>
+
