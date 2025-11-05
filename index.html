@@ -52,13 +52,22 @@ a:hover {
 
 <div class="portfolio-container">
   <h1>My Portfolio</h1>
-  {% assign sections = site.data.projects | map: "section" | uniq %}
-  {% for section in sections %}
-    {% for project in site.data.projects %}
-  <tr>
-    <td>{{ project.title }}</td>
-    <td>{{ project.section }}</td>
-  </tr>
-  {% endfor %}
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Section</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for project in site.data.projects %}
+        <tr>
+          <td>{{ project.title }}</td>
+          <td>{{ project.section }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
 </div>
+
 
