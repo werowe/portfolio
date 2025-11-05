@@ -60,38 +60,27 @@ a:hover {
 <div class="portfolio-container">
   <h1>My Portfolio</h1>
 
-  {% assign sections = site.data.projects | map: "section" | uniq %}
-  {% for section in sections %}
-    {% if section %}
-      <h2>{{ section }}</h2>
-      <table>
-        <tbody>
-        {% assign items = site.data.projects | where: "section", section %}
-        {% for i in (0..items.size) %}
-          {% assign idx = i | times: 2 %}
-          {% if idx < items.size %}
-            <tr>
-              <td>
-                <a href="{{ items[idx].url }}" target="_blank">{{ items[idx].title }}</a>
-                {% if items[idx].description %}
-                  <br><span style="color: #555;">{{ items[idx].description }}</span>
-                {% endif %}
-              </td>
-              {% if idx+1 < items.size %}
-                <td>
-                  <a href="{{ items[idx+1].url }}" target="_blank">{{ items[idx+1].title }}</a>
-                  {% if items[idx+1].description %}
-                    <br><span style="color: #555;">{{ items[idx+1].description }}</span>
-                  {% endif %}
-                </td>
-              {% else %}
-                <td></td>
-              {% endif %}
-            </tr>
-          {% endif %}
-        {% endfor %}
-        </tbody>
-      </table>
+  {% assign items = site.data.projects | where: "section", section %}
+{% for i in (0..items.size | divided_by: 2 | minus: 1) %}
+  {% assign idx = i | times: 2 %}
+  <tr>
+    <td>
+      <a href="{{ items[idx].url }}" target="_blank">{{ items[idx].title }}</a>
+      {% if items[idx].description %}
+        <br><span style="color: #555;">{{ items[idx].description }}</span>
+      {% endif %}
+    </td>
+    {% if idx+1 < items.size %}
+      <td>
+        <a href="{{ items[idx+1].url }}" target="_blank">{{ items[idx+1].title }}</a>
+        {% if items[idx+1].description %}
+          <br><span style="color: #555;">{{ items[idx+1].description }}</span>
+        {% endif %}
+      </td>
+    {% else %}
+      <td></td>
     {% endif %}
-  {% endfor %}
+  </tr>
+{% endfor %}
+
 </div>
