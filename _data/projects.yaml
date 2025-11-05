@@ -1,39 +1,91 @@
-- title: "Machine Learning API"
-  description: "A REST API for serving ML models with real-time predictions using Python and Flask."
-  image: "/assets/images/ml-api.jpg"
-  url: "https://github.com/yourusername/ml-api"
-  tags:
-    - Python
-    - Flask
-    - Machine Learning
-    - API
+- title: "The Low-cost Way to Learn LLM Programming"
+  url: "https://github.com/werowe/portfolio/blob/main/learn_LangChain_RAG.md"
+  section: "AI Posts"
+- title: "Cosine Similarity Explained"
+  url: "https://github.com/werowe/portfolio/blob/main/cosine-similarity.md"
+  section: "AI Posts"
+- title: "A Look at DeepSeek"
+  url: "https://github.com/werowe/portfolio/blob/main/deepseek.md"
+  section: "AI Posts"
+- title: "How to Hire a DataScientist"
+  url: "https://github.com/werowe/portfolio/blob/main/hire_data_scientist.md"
+  section: "AI Posts"
+- title: "How Gradient Descent Works"
+  url: "https://github.com/werowe/portfolio/blob/main/learn_gradient_descent.md"
+  section: "AI Posts"
+- title: "Self-Attention and the Transformer Architecture"
+  url: "https://github.com/werowe/portfolio/blob/main/self-attention-gradient-descent-transformer.md"
+  section: "AI Posts"
+- title: "Tilly,The First AI Actress"
+  url: "https://github.com/werowe/portfolio/blob/main/tilly_norwood.md"
+  section: "AI Posts"
+- title: "Amazon Sagemaker"
+  url: "https://www.bmc.com/blogs/amazon-sagemaker/"
+  section: "AI Posts"
+- title: "Spark ML: A Preventive Maintenance Application"
+  url: "https://github.com/werowe/mist_preventive_maintenance_ml/blob/master/README.md"
+  section: "AI Posts"
 
-- title: "Data Visualization Dashboard"
-  description: "Interactive dashboard for analyzing and visualizing large datasets with Plotly and Dash."
-  image: "/assets/images/dashboard.jpg"
-  url: "https://github.com/yourusername/dashboard"
-  tags:
-    - Python
-    - Plotly
-    - Data Science
-    - Dashboard
+- title: "BMC Tech Articles"
+  url: "https://www.bmc.com/blogs/author/walker_rowe/"
+  section: "Tech Articles"
+- title: "Tech Target Tech Articles"
+  url: "https://www.techtarget.com/contributor/Walker-Rowe"
+  section: "Tech Articles"
 
-- title: "E-commerce Platform"
-  description: "Full-stack e-commerce solution with payment integration and inventory management."
-  image: "/assets/images/ecommerce.jpg"
-  url: "https://github.com/yourusername/ecommerce"
-  tags:
-    - JavaScript
-    - Node.js
-    - MongoDB
-    - React
+- title: "The Definitive Guide to IoT"
+  url: "https://drive.google.com/file/d/0B_nwhnbujpNoYjN4SEdhMXFrbDg/view?resourcekey=0-A8dv1gx8fOY29TULXH11fQ"
+  section: "Books"
+- title: "Machine Learning, A Hands-on Introduction to Math, Stats, and Machine Learning"
+  url: "https://drive.google.com/file/d/1um0BBueBzgHyx9WsWbIBxUUDELOG_Q1M/view"
+  section: "Books"
 
-- title: "Natural Language Processing Tool"
-  description: "Text analysis tool using transformer models for sentiment analysis and entity recognition."
-  image: "/assets/images/nlp-tool.jpg"
-  url: "https://github.com/yourusername/nlp-tool"
-  tags:
-    - Python
-    - NLP
-    - Transformers
-    - PyTorch
+- title: "Here is my Code Portfolio"
+  url: "https://docs.google.com/spreadsheets/d/1YXkZ34bDKClfz_cV6KCqam9hIPeorkYT6vfk_JzewAM/edit?usp=sharing"
+  section: "Code"
+
+- title: "Here is the course material I developed for my Python school."
+  url: "https://github.com/werowe/HypatiaAcademy/blob/master/README.md"
+  section: "Teaching and Curriculum Development"
+
+- title: "SAP/Qualtrics"
+  url: "https://api.qualtrics.com/"
+  section: "SDK/API Documentation"
+- title: "Research For Good"
+  url: "https://docs.researchforgood.com/RFGAPI/client/apidocs/index.html#summary"
+  section: "SDK/API Documentation"
+- title: "Envoy"
+  url: "https://envoy.com/developers"
+  section: "SDK/API Documentation"
+- title: "Ninth Wave"
+  url: "https://ninth-wave.com/"
+  section: "SDK/API Documentation"
+- title: "Unbabel"
+  url: "https://unbabel.com/"
+  section: "SDK/API Documentation"
+- title: "Cyabra"
+  url: "https://cyabra.com/"
+  section: "SDK/API Documentation"
+- title: "Join Save"
+  url: "https://joinsave.com/"
+  section: "SDK/API Documentation"
+- title: "Kensu"
+  url: "https://www.kensu.io/"
+  section: "SDK/API Documentation"
+- title: "LiveSwitch"
+  url: "https://developer.liveswitch.io/"
+  section: "SDK/API Documentation"
+- title: "Agora"
+  url: "https://docs.agora.io/en/"
+  section: "SDK/API Documentation"
+
+- title: "China US Focus"
+  url: "https://www.chinausfocus.com/author/136/walker-rowe.html"
+  section: "Non-Tech"
+
+- title: "Walker Rowe books on Amazon"
+  url: "https://www.amazon.com/Books-Walker-Elliott-Rowe/s?rh=n%3A283155%2Cp_27%3AWalker%2BElliott%2BRowe"
+  section: "Non-IT Books I wrote"
+- title: "The Avocado Republic of Chile"
+  url: "https://www.amazon.co.uk/Avocado-Republic-Chile-Because-Bananas/dp/151200782X"
+  section: "Non-IT Books I wrote"
