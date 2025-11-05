@@ -61,8 +61,8 @@ a:hover {
         <tbody>
         {% assign items = site.data.projects | where: "section", section %}
         {% assign num_rows = items.size | divided_by: 2 %}
-        {% if items.size modulo 2 != 0 %}
-          {% assign num_rows = num_rows | plus: 1 %}
+        {% if items.size | modulo: 2 != 0 %}
+        {% assign num_rows = num_rows | plus: 1 %}
         {% endif %}
         {% for i in (0..num_rows | minus: 1) %}
           {% assign idx = i | times: 2 %}
