@@ -1,0 +1,143 @@
+---
+layout: default
+title: Portfolio
+---
+
+<style>
+  .portfolio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+
+  .portfolio-header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .portfolio-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .portfolio-header p {
+    font-size: 1.2em;
+    color: #666;
+  }
+
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  .portfolio-item {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .portfolio-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  }
+
+  .portfolio-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .portfolio-content {
+    padding: 25px;
+  }
+
+  .portfolio-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+
+  .portfolio-tags {
+    margin-bottom: 15px;
+  }
+
+  .tag {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 0.85em;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+  .portfolio-description {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+
+  .portfolio-link {
+    display: inline-block;
+    background: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+
+  .portfolio-link:hover {
+    background: #34495e;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .portfolio-grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    
+    .portfolio-header h1 {
+      font-size: 2em;
+    }
+  }
+</style>
+
+<div class="portfolio-container">
+  <div class="portfolio-header">
+    <h1>My Portfolio</h1>
+    <p>A showcase of my recent projects and work</p>
+  </div>
+
+  <div class="portfolio-grid">
+    {% for project in site.data.projects %}
+    <div class="portfolio-item">
+      {% if project.image %}
+      <img src="{{ project.image }}" alt="{{ project.title }}" class="portfolio-image">
+      {% endif %}
+      <div class="portfolio-content">
+        <h2 class="portfolio-title">{{ project.title }}</h2>
+        {% if project.tags %}
+        <div class="portfolio-tags">
+          {% for tag in project.tags %}
+          <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+        <p class="portfolio-description">{{ project.description }}</p>
+        {% if project.url %}
+        <a href="{{ project.url }}" class="portfolio-link" target="_blank">View Project</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
