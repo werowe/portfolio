@@ -1,0 +1,39 @@
+- title: "Machine Learning API"
+  description: "A REST API for serving ML models with real-time predictions using Python and Flask."
+  image: "/assets/images/ml-api.jpg"
+  url: "https://github.com/yourusername/ml-api"
+  tags:
+    - Python
+    - Flask
+    - Machine Learning
+    - API
+
+- title: "Data Visualization Dashboard"
+  description: "Interactive dashboard for analyzing and visualizing large datasets with Plotly and Dash."
+  image: "/assets/images/dashboard.jpg"
+  url: "https://github.com/yourusername/dashboard"
+  tags:
+    - Python
+    - Plotly
+    - Data Science
+    - Dashboard
+
+- title: "E-commerce Platform"
+  description: "Full-stack e-commerce solution with payment integration and inventory management."
+  image: "/assets/images/ecommerce.jpg"
+  url: "https://github.com/yourusername/ecommerce"
+  tags:
+    - JavaScript
+    - Node.js
+    - MongoDB
+    - React
+
+- title: "Natural Language Processing Tool"
+  description: "Text analysis tool using transformer models for sentiment analysis and entity recognition."
+  image: "/assets/images/nlp-tool.jpg"
+  url: "https://github.com/yourusername/nlp-tool"
+  tags:
+    - Python
+    - NLP
+    - Transformers
+    - PyTorch
