@@ -1,3 +1,42 @@
+# Top-level navigational or featured links
+- title: "Walker Rowe Portfolio"
+  url: "https://werowe.github.io/portfolio/"
+  section: "Header"
+
+# All main content links (previously included, but repeated here to show you how everything fits)
+- title: "Understanding Cosine Similarity"
+  url: "https://werowe.github.io/portfolio/cosine-similarity.html"
+  section: "AI Posts"
+
+- title: "China Rocks AI Marketplace with DeepSeek AI Model. NVIDIA Stock Price Tumbles"
+  url: "https://werowe.github.io/portfolio/deepseek.html"
+  section: "AI Posts"
+
+- title: "How to Hire a Data Scientist, Researcher, or Machine Learning Engineer"
+  url: "https://werowe.github.io/portfolio/hire_data_scientist.html"
+  section: "AI Posts"
+
+- title: "Portfolio"
+  url: "https://werowe.github.io/portfolio/"
+  section: "Header"
+
+- title: "Want to Learn LangChain and RAG? OpenAI Is Too Expensive — So What Else Can You Use?"
+  url: "https://werowe.github.io/portfolio/learn_LangChain_RAG.html"
+  section: "AI Posts"
+
+- title: "Learn Stochastic Gradient Descent"
+  url: "https://werowe.github.io/portfolio/learn_gradient_descent.html"
+  section: "AI Posts"
+
+- title: "WALKER ROWE PORTFOLIO"
+  url: "https://werowe.github.io/portfolio/old_index.html"
+  section: "Header"
+
+- title: "Do You Understand Self-Attention, Gradient Descent, the Transformer Architecture?"
+  url: "https://werowe.github.io/portfolio/self-attention-gradient-descent-transformer.html"
+  section: "AI Posts"
+
+
 - title: "The Low-cost Way to Learn LLM Programming"
   url: "https://github.com/werowe/portfolio/blob/main/learn_LangChain_RAG.md"
   section: "AI Posts"
