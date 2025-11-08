@@ -5,6 +5,11 @@ layout: portfolio
 
 # Learn Stochastic Gradient Descent
 
+$$
+\text{cos similarity} = \frac{a \cdot b}{\|a\| \|b\|}
+$$
+
+
 It's safe to say that many ML programmers focus on learning PyTorch and similar tools without spending much time mastering the algorithms and math that make neural networks work. I believe it's important to understand the math as well.
 
 In my computer school (which is free and has 95% Ukrainian students), I teach students how to do logistic and linear regression and neural networks. We start with spreadsheets before writing code in Python. The reason is to teach the math and the algorithm.
