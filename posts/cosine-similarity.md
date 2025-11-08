@@ -1,5 +1,6 @@
 ---
-
+title: Understanding Cosine Similarity
+layout: portfolio
 ---
 
 # Understanding Cosine Similarity
