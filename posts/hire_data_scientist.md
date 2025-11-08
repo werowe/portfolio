@@ -50,4 +50,4 @@ Each of these is unique:
 - **Data Scientist:** Deep understanding of AI algorithms and APIs, model tuning and evaluation, strong math and data visualization skills.
 - **Machine Learning Engineer (MLOps):** Deploys code to production using orchestration tools, Docker, and cloud platforms—making AI robust and scalable.
 
-![](https://github.com/werowe/portfolio/blob/main/images/ds.jpeg)
+![](/images/ds.jpeg)
