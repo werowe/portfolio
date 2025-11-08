@@ -1,5 +1,6 @@
 ---
-
+title: DeepSeek AI Model
+layout: portfolio
 ---
 
 # China Rocks AI Marketplace with DeepSeek AI Model. NVIDIA Stock Price Tumbles
