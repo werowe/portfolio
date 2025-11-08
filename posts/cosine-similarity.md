@@ -16,9 +16,9 @@ $$
 $$
 
 
-where $$\cdot$$ is the dot product of vectors $$a$ and $$b$$, and $$\|a\|$$ is the vector’s length (norm). This formula gives the angle between two vectors, ranging from $-1$ to $1$.
+where $\cdot$ is the dot product of vectors $a$ and $b$, and $\|a\|$ is the vector’s length (norm). This formula gives the angle between two vectors, ranging from -1 to 1.
 
-Values near $1$ indicate very similar meanings, values around $0$ indicate they are unrelated, and values near $-1$ indicate they are not at all related. For example, "chicken" might be at $[-3,-3]$ and "rock" at $[3,3]$, so that their vectors point in opposite directions. Except in actual practice, embeddings like "dog" and "chicken" will have much higher dimensions (like 100), and the coordinates are scaled between $0$ and $1$.
+Values near 1 indicate very similar meanings, values around 0 indicate they are unrelated, and values near -1 indicate they are not at all related. For example, "chicken" might be at $[-3,-3]$ and "rock" at $[3,3]$, so that their vectors point in opposite directions. Except in actual practice, embeddings like "dog" and "chicken" will have much higher dimensions (like 100), and the coordinates are scaled between $0$ and $1$.
 
 To understand this, consider the vectors ending at points $[0,1]$ and $[1,0]$. These are, of course, the y and x axes in the Cartesian plane. You can see that multiplying these two vectors, $[0,1]$ and $[1,0]$: $1 \times 0 + 0 \times 1 = 0$, gives $0$ in the numerator so that 
 $0 / (\|[0,1]\| \|[1,0]\|)$ is $0$. (And there's a $90^\circ$ angle between the vectors.)
