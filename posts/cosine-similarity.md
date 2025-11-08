@@ -12,7 +12,7 @@ Two classic examples are "king is to queen as man is to woman" (gender) and "Pra
 To measure how close two embeddings are, we use cosine similarity:
 
 \[
-\text{cos similarity} = \frac{a \cdot b}{\|a\| \|b\|}$$
+\text{cos similarity} = \frac{a \cdot b}{\|a\| \|b\|} 
 \]
 
 where \(\cdot\) is the dot product of vectors $a$ and $b$, and $\|a\|$ is the vector’s length (norm). This formula gives the angle between two vectors, ranging from $-1$ to $1$.
