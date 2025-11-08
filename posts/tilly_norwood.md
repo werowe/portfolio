@@ -27,4 +27,4 @@ Consider what AI-generated images and sound can do:
 
 AI has touched every aspect of life: work, war, love, music, and now film. It’s as if the lightbulb has replaced the candle. We may long for the warmth of its flickering glow, but now we bask in the steady brilliance of the AI-powered lightbulb, whose colors and brightness change automatically as the day fades into night.
 
-![](https://github.com/werowe/portfolio/blob/main/images/Tilly-Norwood-.webp)
+![](/images/Tilly-Norwood-.webp)
