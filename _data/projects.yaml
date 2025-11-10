@@ -1,3 +1,21 @@
+- title: "BMC Tech Articles"
+  url: "https://www.bmc.com/blogs/author/walker_rowe/"
+  section: "Tech Articles"
+- title: "Tech Target Tech Articles"
+  url: "https://www.techtarget.com/contributor/Walker-Rowe"
+  section: "Tech Articles"
+
+- title: "The Definitive Guide to IoT"
+  url: "https://drive.google.com/file/d/0B_nwhnbujpNoYjN4SEdhMXFrbDg/view?resourcekey=0-A8dv1gx8fOY29TULXH11fQ"
+  section: "Books"
+- title: "Machine Learning, A Hands-on Introduction to Math, Stats, and Machine Learning"
+  url: "https://drive.google.com/file/d/1um0BBueBzgHyx9WsWbIBxUUDELOG_Q1M/view"
+  section: "Books"
+
+- title: "Here is my Code Portfolio"
+  url: "https://docs.google.com/spreadsheets/d/1YXkZ34bDKClfz_cV6KCqam9hIPeorkYT6vfk_JzewAM/edit?usp=sharing"
+  section: "Code"
+
 - title: "Neural Networks and Deep Learning"
   url: "https://www.coursera.org/account/accomplishments/verify/4BI3IPZ9Y9V8"
   section: "AI Certificates"
@@ -38,23 +56,7 @@
   url: "https://github.com/werowe/mist_preventive_maintenance_ml/blob/master/README.md"
   section: "AI Posts"
 
-- title: "BMC Tech Articles"
-  url: "https://www.bmc.com/blogs/author/walker_rowe/"
-  section: "Tech Articles"
-- title: "Tech Target Tech Articles"
-  url: "https://www.techtarget.com/contributor/Walker-Rowe"
-  section: "Tech Articles"
 
-- title: "The Definitive Guide to IoT"
-  url: "https://drive.google.com/file/d/0B_nwhnbujpNoYjN4SEdhMXFrbDg/view?resourcekey=0-A8dv1gx8fOY29TULXH11fQ"
-  section: "Books"
-- title: "Machine Learning, A Hands-on Introduction to Math, Stats, and Machine Learning"
-  url: "https://drive.google.com/file/d/1um0BBueBzgHyx9WsWbIBxUUDELOG_Q1M/view"
-  section: "Books"
-
-- title: "Here is my Code Portfolio"
-  url: "https://docs.google.com/spreadsheets/d/1YXkZ34bDKClfz_cV6KCqam9hIPeorkYT6vfk_JzewAM/edit?usp=sharing"
-  section: "Code"
 
 - title: "Here is the course material I developed for my Python school."
   url: "https://github.com/werowe/HypatiaAcademy/blob/master/README.md"
