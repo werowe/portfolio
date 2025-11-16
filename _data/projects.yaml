@@ -61,6 +61,9 @@
 - title: "Here is the course material I developed for my Python school."
   url: "https://github.com/werowe/HypatiaAcademy/blob/master/README.md"
   section: "Teaching and Curriculum Development"
+- title: "Here are the videos I developed for my Python school."
+  url: "https://www.youtube.com/@hypatiaacademyprogrammingt1344"
+  section: "Teaching and Curriculum Development"
 
 - title: "SAP/Qualtrics"
   url: "https://api.qualtrics.com/"
