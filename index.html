@@ -48,10 +48,30 @@ a:hover {
   text-decoration: underline;
   color: #19355d;
 }
+.portfolio-header {
+  text-align: center;
+  padding: 40px 20px 20px;
+  background: #f5f7fb;          /* light color band */
+  border-bottom: 1px solid #ddd;
+}
+.portfolio-header h1 {
+  font-size: 2.8rem;            /* bigger */
+  font-weight: 800;             /* bolder */
+  letter-spacing: 0.05em;
+  margin: 0 0 10px;
+  color: #222;
+}
+  
 </style>
 
 <div class="portfolio-container">
-  <h1></h1>Walker Rowe Portfolio</h1>
+  <div class="portfolio-header">
+    <h1>Walker Rowe Portfolio</h1>
+    <hr>
+    <p class="contact">
+      Email: <a href="mailto:werowe@walkerrowe.com">werowe@walkerrowe.com</a> · 
+    </p>
+  </div>
 
   {% assign sections = site.data.projects | map: "section" | uniq %}
   {% for section in sections %}
