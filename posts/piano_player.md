@@ -1,5 +1,5 @@
 
-#Who was the First Writer to Explain What Will Happen When AI Takes All the Jobs?
+# Who was the First Writer to Explain What Will Happen When AI Takes All the Jobs?
 
 Who was the First Writer to Explain What Will Happen When AI Takes All the Jobs?
 
